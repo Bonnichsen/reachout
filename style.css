@@ -82,6 +82,9 @@ body {
     font-weight: 100;
 }
 
+#kasper_card{
+    margin-top: -300px;
+}
 #casper_card{
     margin-top: -195px;
 }
