@@ -1,0 +1,392 @@
+section {
+    padding: 100px 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 400;
+    background-color: rgba(61, 65, 71, 0.77);
+}
+
+#mock_up {
+    margin-top: -250px;
+}
+
+#kasper {
+    border-radius: 500px;
+    width: 150px;
+    float: right;
+    filter: grayscale(100);
+}
+
+#kasper_q {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#kasper_h4 {
+    font-weight: 100;
+}
+
+#casper {
+    border-radius: 500px;
+    width: 150px;
+    float: left;
+    margin: 0 0 0 5px;
+    transform: rotateY(180deg);
+}
+
+#casper_q {
+    margin-top: 50px;
+    padding-right: 0;
+    padding-bottom: 20px;
+}
+
+#casper_h2 {
+    margin-top: 55px;
+    margin-left: 167px;
+}
+
+#casper_h4 {
+    margin-left: 167px;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+header {
+    background-image: url(/img/splash_blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+header p {
+    font-family: 'Allura';
+    color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 0;
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    background: #C5CAE9;
+    width: 5px;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    width: 100%;
+    margin-bottom: 170px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    float: right;
+    padding: 40px 30px 10px 30px;
+}
+
+.timeline-item:nth-child(even) .timeline-content .date {
+    right: auto;
+    left: 0;
+}
+
+.timeline-item:nth-child(even) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+}
+
+.timeline-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.timeline-content {
+    position: relative;
+    width: 47%;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background: #f5f5f5;
+    box-shadow: 0 20px 25px 5px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    right: -15px;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #f5f5f5;
+}
+
+.timeline-img {
+    width: 30px;
+    height: 30px;
+    background: #4d8ec4;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+a {
+    background: #AEBFCD;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+}
+
+a:hover,
+a:active,
+a:focus {
+    background: #4d8ec4;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.timeline-card {
+    padding: 0 !important;
+}
+
+.timeline-card p {
+    padding: 0 20px;
+}
+
+.timeline-card a {
+    margin-left: 20px;
+}
+
+.timeline-item:nth-child(2) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1458530970867-aaa3700e966d") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-item:nth-child(5) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1444093826349-9ce8c622f4f3") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-item:nth-child(6) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1471479917193-f00955256257") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-item:nth-child(8) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1466840787022-48e0ec048c8a") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-item:nth-child(10) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1447639703758-f525f36456bf") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-item:nth-child(11) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1469429978400-082eec725ad5") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.img_head {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.timeline-img-header h2 {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+blockquote {
+    margin-top: 30px;
+    color: #757575;
+    border-left-color: #4d8ec4;
+    padding: 0 20px;
+}
+
+.date {
+    background: #000000;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+    .timeline .timeline-img {
+        left: 50px;
+    }
+    .timeline .timeline-content {
+        max-width: 100%;
+        width: auto;
+        margin-left: 70px;
+    }
+    .timeline .timeline-item:nth-child(even) .timeline-content {
+        float: none;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        width: 0;
+        height: 0;
+        top: 30px;
+        left: -15px;
+        border-width: 10px 15px 10px 0;
+        border-color: transparent #f5f5f5 transparent transparent;
+    }
+}
+
+/*--------- DROPDOWN MENU ----------*/
+
+/*---- DROP DOWN MENU ---*/
+
+#drop_header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    height: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+}
+
+#drop_header .container_drop {
+    position: absolute;
+    padding: 8px 20px;
+    display: block;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.81);
+    min-width: 280px;
+}
+
+#drop_header .container_drop a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F7F0E7;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: #AEBFCD;
+
+}
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+    background-color: #AEBFCD;
+
+}
+
+/* Rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #AEBFCD;
+}
+
+#drop_header .dropdown {
+    display: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+#drop_header .dropdown-content {
+    min-width: 300px;
+    width: 100px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.08);
+
+}
+
+
+/* Links inside the dropdown */
+
+#drop_header .dropdown-content a {
+    color: #F7F0E7;
+    padding: 25px 0px 0px 5px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Raleway';
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Change color of dropdown links on hover */
+
+#drop_header .dropdown-content a:hover {
+    color: #AEBFCD;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
