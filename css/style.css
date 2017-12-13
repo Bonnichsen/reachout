@@ -298,11 +298,11 @@ blockquote {
     position: absolute;
     top: 0;
     padding: 15px 0px;
-    border-radius: 20px 0px;
+    border-radius: 20px 20px 0px 0px;
     text-align: center;
     margin: 0;
     font-size: 4.5vw;
-     text-transform: uppercase;
+    text-transform: uppercase;
     color: white;
     margin-bottom: 20px;
     background-color: black;
