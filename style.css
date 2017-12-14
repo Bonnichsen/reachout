@@ -300,6 +300,12 @@ header p {
 
 }
 
+#budget h2 {
+    padding-top: 1.5vw;
+    padding-left: 1.2vw;
+    padding-bottom: 0.6vw;
+}
+
 
 a {
     background: #AEBFCD;
